@@ -1,0 +1,75 @@
+#logo-image {
+    max-height: 10vh;
+    
+}
+
+html {
+    font-family: 'Roboto Slab', serif;
+}
+
+#navbarId {
+    font-family: 'Roboto Slab', serif;
+}
+
+.modal-header {
+    border-bottom: rgba(1,1,1,0);
+}
+
+.modal-body {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+#modal-logo-container {
+    width: 100px;
+}
+
+
+/*enter website modal*/
+
+#enter-website-modal .modal-footer {
+    border-top: rgba(1,1,1,0);
+}
+
+
+
+
+ /*
+@font-face {
+    font-family: 'Roboto Slab';
+    
+    src: url('../font/RobotoSlab-Black.ttf')  format('truetype'), /* Safari, Android, iOS *//*
+   
+    url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      /*   url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+        /* url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         
+         /* url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+/*
+
+.floating-text-box {
+    position: absolute;
+    width: 10%;
+    height: 10vh;
+    top: 45vh;
+    left: 45%;
+    z-index: 5;
+    background-color: white;
+}
+
+button {
+    z-index: 6;
+    
+}
+
+myModal {
+    z-index: 10;
+}
+
+#modal-button 
+{margin-left: 100px;
+margin-top: 100px;}
+
+*/

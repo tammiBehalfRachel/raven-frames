@@ -1,0 +1,17 @@
+.img-fluid {
+    margin-top: 5%;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.col-md-4 {
+    justify-content: center;
+}
+
+.container-fluid, .row {
+    justify-content: center;
+}
+
+.container-fluid {
+    margin: auto;
+}
