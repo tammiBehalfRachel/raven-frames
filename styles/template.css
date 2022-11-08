@@ -1,3 +1,40 @@
+/*font for whole page, whole site*/
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+/*Navbar configuration*/
+
+#monogram-logo-image {
+    width: 50%;
+    margin: auto;
+}
+
+#navbarId {
+    background-color: white;
+}
+
+.nav-item {
+    font-size: 1.4rem;
+}
+
+/*headline*/
+
+.text-box {
+    margin-top: 5%;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p 
+  {  font-size: 1.2rem;
+    margin: 4%;
+}
+/*How images are arranged main content*/
+
 .img-fluid {
     margin-top: 5%;
     justify-content: center;
@@ -15,3 +52,26 @@
 .container-fluid {
     margin: auto;
 }
+
+/*Footer*/
+
+.fa-brands {
+    padding: 10px 7px 7px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+  }
+
+
+  #footer {
+    margin-top: 2%;
+    border-top: 1px solid black;
+    background-color: white;
+  }
+  
