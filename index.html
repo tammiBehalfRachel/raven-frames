@@ -27,7 +27,7 @@
 <nav class="navbar bg-light fixed-top" id="navbarId" >
   <div class="container-fluid">
     <a class="navbar-brand" href="./template.html"><img id="logo-image" src="./images/Main Logo Black Grey RGB.png" alt="logo reads Raven Frames" /></a>
-    <button class="navbar-toggler" id="toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+    <button class="navbar-toggler" id="toggler" onclick="location.href='./template.html'" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
   </div>
@@ -121,14 +121,17 @@
     </div>
   </div>
 
+
+
 <!--enter website modal-->
+<!--
 <div class="modal" id="enter-website-modal" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered" >
     <div class="modal-content">
       <!--<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 
 <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        -->
+        --><!--
       
       <div class="modal-header">
         
@@ -138,12 +141,12 @@
       <div class="modal-body">
        <!-- <p>The current waiting time for framing is six to eight weeks.</p>
         <br>
-        <p>Click logo to enter main site.</p>-->
+        <p>Click logo to enter main site.</p>--><!--
         <div class="container-fluid d-flex" id="monogram-container">
           <a href="./template.html"><img class="img-fluid" id="monogram-logo-image" src="./images/Monogram Logo Black.jpg" alt="logo shows letter R with a raven in the stem" /></a>
-          <!--<a class="img-fluid navbar-brand" href="#"><img id="monogram-logo-image" src="./images/Monogram Logo Black.jpg" alt="logo shows letter R with a raven in the stem" /></a>-->
+          <!--<a class="img-fluid navbar-brand" href="#"><img id="monogram-logo-image" src="./images/Monogram Logo Black.jpg" alt="logo shows letter R with a raven in the stem" /></a>--><!--
         </div>
-        <!--<button type="button" class="btn btn-primary" onclick='location.href="./template.html"' >Enter main website</button>-->
+        <!--<button type="button" class="btn btn-primary" onclick='location.href="./template.html"' >Enter main website</button>--><!--
         <p style="margin-top: 4%">Click to enter main site</p>
         <div class="modal-footer">
         
@@ -157,9 +160,12 @@
         
         
       </div>
-      -->
+      --><!--
     </div>
   </div>
+
+  -->
+
   <!--old-->
   <!--
   <div class="modal-dialog">
@@ -186,26 +192,32 @@
     
 
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="4000" >
-      <img src="./images/Carousel images/cat window.jpg" class="d-block w-100" alt="cat languishes in an open sash window in Raven Frames workshop">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000" >
+          <img src="./images/Carousel images/cat window.jpg" class="d-block w-100" alt="cat languishes in an open sash window in Raven Frames workshop">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="./images/Carousel images/tic-tac-toe windows.jpg" class="d-block w-100" alt="double doors entrance to Raven Frame workshop">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="./images/Carousel images/woman painting dripping cheek splodge.jpg" class="d-block w-100" alt="painting framed by Raven Frames shows a woman with a black splodge on her cheek">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-item" data-bs-interval="4000">
-      <img src="./images/Carousel images/tic-tac-toe windows.jpg" class="d-block w-100" alt="double doors entrance to Raven Frame workshop">
+
+    <div class="text-box position-absolute top-50 start-50 translate-middle" id="action-call">
+        <h1 class="text-center">Call to action</h1>
+        <!--<p class="text-center">Scroll down to see examples of our work.</p>-->
     </div>
-    <div class="carousel-item" data-bs-interval="4000">
-      <img src="./images/Carousel images/woman painting dripping cheek splodge.jpg" class="d-block w-100" alt="painting framed by Raven Frames shows a woman with a black splodge on her cheek">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+    
 
     <!--Link for the Bootstrap javascript code that drives drop down menu etc-->
 
