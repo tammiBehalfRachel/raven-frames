@@ -1,8 +1,9 @@
 /*font for whole page, whole site*/
 
 body {
-    /*font-family: 'Roboto Slab', serif;*/
-    font-family: 'Noto Serif Display', serif;
+    /*font-family: 'Roboto Slab', serif;
+    font-family: 'Noto Serif Display', serif;*/
+    font-family: 'Cormorant Infant', serif;
 }
 
 /*Navbar configuration*/
