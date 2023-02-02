@@ -4,6 +4,7 @@ body {
     /*font-family: 'Roboto Slab', serif;
     font-family: 'Noto Serif Display', serif;*/
     font-family: 'Cormorant Infant', serif;
+    /*I don't get what the fuck is happening*/
 }
 
 /*Navbar configuration*/
@@ -29,11 +30,11 @@ body {
 }
 */
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 p 
-  {  font-size: 1.2rem;
+  {  font-size: 1.6rem;
     margin: 4%;
 }
 /*How images are arranged main content*/
