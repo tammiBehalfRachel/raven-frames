@@ -1,6 +1,12 @@
 #logo-image {
     max-height: 14vh;
     
+    
+}
+
+#toggler, #logo-image {
+    background: rgba(255,255,255,0.7);
+    padding: 1rem;
 }
 
 html {
@@ -10,6 +16,22 @@ html {
 #navbarId {
     font-family: 'Roboto Slab', serif;
 }
+
+.navbar{
+    position:absolute;
+    width:100%;
+    z-index:10;
+    max-width:100%;
+}
+
+.carousel {
+    height: 100vh;
+}
+
+.carousel-inner, .carousel-item {
+    height: 100vh;
+}
+
 
 /*Call to action*/
 
