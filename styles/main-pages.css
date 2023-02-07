@@ -1,0 +1,92 @@
+/*font for whole page, whole site*/
+
+body {
+    /*font-family: 'Roboto Slab', serif;
+    font-family: 'Noto Serif Display', serif;*/
+    font-family: 'Cormorant Infant', serif;
+    
+}
+
+/*Navbar configuration*/
+
+#logo-image {
+    max-height: 14vh;
+    
+    
+}
+
+#monogram-logo-image {
+    width: 50%;
+    margin: auto;
+}
+
+#navbarId {
+    background-color: white;
+    
+}
+
+.nav-item {
+    font-size: 1.4rem;
+}
+
+/*headline*/
+/*
+.text-box {
+    margin-top: 3%;
+}
+*/
+h1 {
+    font-size: 3rem;
+}
+
+p 
+  {  font-size: 1.6rem;
+    margin: 4%;
+}
+/*How images are arranged main content*/
+
+.img-fluid {
+    margin-top: 5%;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.col-md-4 {
+    justify-content: center;
+}
+
+.container-fluid, .row {
+    justify-content: center;
+}
+
+.container-fluid {
+    margin: auto;
+}
+
+/*Footer*/
+
+.fa-brands {
+    padding: 10px 7px 7px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+   /* margin: 5px;*/
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+  }
+
+
+  #footer {
+    margin-top: 2%;
+    border-top: 1px solid black;
+    background-color: white;
+    
+  }
+  
+  #footer li,  #footer p {
+    font-size: 1.3rem;
+  }

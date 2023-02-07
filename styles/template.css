@@ -9,6 +9,12 @@ body {
 
 /*Navbar configuration*/
 
+#logo-image {
+    max-height: 14vh;
+    
+    
+}
+
 #monogram-logo-image {
     width: 50%;
     margin: auto;
@@ -82,5 +88,5 @@ p
   }
   
   #footer li,  #footer p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
