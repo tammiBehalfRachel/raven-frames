@@ -57,11 +57,13 @@ p
 #list-of-services li {
     font-size: 1.3rem !important;
 }
-/*
-li {
-    font-size: 1.3rem !important;
+/*contact details text*/
+
+#contact-details p, #contact-details h2, .google-map {
+    margin: 2%;
 }
-*/
+
+
 /*How images are arranged main content*/
 
 .img-fluid {
