@@ -51,6 +51,17 @@ p
   {  font-size: 1.3rem;
     margin: 4%;
 }
+
+/*bulleted list about-us page*/
+
+#list-of-services li {
+    font-size: 1.3rem !important;
+}
+/*
+li {
+    font-size: 1.3rem !important;
+}
+*/
 /*How images are arranged main content*/
 
 .img-fluid {
