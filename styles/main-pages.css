@@ -8,6 +8,14 @@ body {
 }
 
 /*Navbar configuration*/
+/*added*/
+
+#toggler {
+    margin-top: 0.5rem !important; 
+    padding: 1rem !important;
+}
+
+/*added ends*/
 
 #logo-image {
     max-height: 14vh;
@@ -40,7 +48,7 @@ h1 {
 }
 
 p 
-  {  font-size: 1.6rem;
+  {  font-size: 1.3rem;
     margin: 4%;
 }
 /*How images are arranged main content*/

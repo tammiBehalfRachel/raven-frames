@@ -1,7 +1,9 @@
 #logo-image {
-    max-height: 14vh;
-    
-    
+    max-height: 14vh;     
+}
+
+#toggler {
+    margin-right: 2.5rem;
 }
 
 #toggler, #logo-image {
@@ -10,11 +12,11 @@
 }
 
 html {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Cormorant Infant', serif;
 }
 
 #navbarId {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Cormorant Infant', serif;
 }
 
 .navbar{
@@ -73,8 +75,13 @@ html {
 }
 
 .modal-body {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Cormorant Infant', serif;
     text-align: center;
+    font-size: 1.3rem;
+}
+
+.modal-backdrop {
+    opacity: 0 !important;
 }
 
 #modal-logo-container {
