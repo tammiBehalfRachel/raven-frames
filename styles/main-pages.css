@@ -37,6 +37,16 @@ body {
     font-size: 1.4rem;
 }
 
+/*Width of off-canvas navbar*/
+
+.offcanvas {
+    width: 300px !important;
+}
+
+
+
+
+
 /*headline*/
 /*
 .text-box {

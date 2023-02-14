@@ -81,7 +81,7 @@ html {
 }
 
 .modal-backdrop {
-    opacity: 0 !important;
+    opacity: 0.25 !important;
 }
 
 #modal-logo-container {
