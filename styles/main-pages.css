@@ -69,10 +69,14 @@ p
 }
 /*contact details text*/
 
-#contact-details p, #contact-details h2, .google-map {
-    margin: 2%;
+#contact-details p, #contact-details h2  {
+    margin-left: 0% !important;
+    
 }
 
+.google-map {
+
+}
 
 /*How images are arranged main content*/
 
