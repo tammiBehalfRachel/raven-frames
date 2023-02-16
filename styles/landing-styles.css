@@ -124,11 +124,13 @@ html {
         padding-right: 0% !important;
         }
 
+
+    .modal-content {
+        max-width: 40vw !important;
+    }
     .modal-backdrop {
         width: 200vw;
-        height: 100vh;
-
-        
+        height: 100vh;        
     }
 
     html {
