@@ -103,7 +103,7 @@ html {
     #logo-image {
         max-width: 25vw;     
     }
-/**/
+
     .carousel {
         width: 200vw;
     }
@@ -120,6 +120,16 @@ html {
         transform: translate(-50%, -25%)!important;
         }
         
+    .modal {
+        padding-right: 0% !important;
+        }
+
+    .modal-backdrop {
+        width: 200vw;
+        height: 100vh;
+
+        
+    }
 
     html {
       transform: rotate(-90deg);
