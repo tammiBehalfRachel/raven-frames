@@ -74,6 +74,10 @@ p
     
 }
 
+#contact-details .img-fluid {
+    margin-top: 0% !important;
+}
+
 .google-map {
 
 }
