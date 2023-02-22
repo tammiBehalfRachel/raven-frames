@@ -182,7 +182,9 @@ img {
    
 }
 
-@media screen and (max-device-width: 390px) and (orientation: portrait) {
+/*previously 390*/
+
+@media screen and (max-device-width: 500px) and (orientation: portrait) {
     .carousel-item img {
         height: auto !important;
         width: 100% !important;
