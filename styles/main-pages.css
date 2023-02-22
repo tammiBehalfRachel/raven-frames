@@ -19,6 +19,7 @@ body {
 
 #logo-image {
     max-height: 14vh;
+    background-color: white;
     
     
 }
@@ -26,6 +27,7 @@ body {
 #monogram-logo-image {
     width: 50%;
     margin: auto;
+    background-color: white;
 }
 
 #navbarId {
@@ -67,6 +69,19 @@ p
 #list-of-services li {
     font-size: 1.3rem !important;
 }
+
+#privacy {
+    width: 100%;
+}
+
+#privacy p {
+    margin-left: 0% !important;
+}
+
+#address p {
+    margin-left: 0%;
+}
+
 /*contact details text*/
 
 #contact-details p, #contact-details h2  {
@@ -129,3 +144,11 @@ p
   #footer li,  #footer p {
     font-size: 1.3rem;
   }
+
+  @media screen  and (min-width: 250px)  {
+    #privacy {
+        width: 80%;
+    }
+
+  }
+  
