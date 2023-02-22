@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Raven Frames</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--<link href="styles/landing-styles.css" rel="stylesheet">-->
     <link href="styles/landing-styles.css" rel="stylesheet">
 
     <!--font-->
@@ -23,7 +24,7 @@
 
   <body>
 
-<!--code for the drop down menu-->
+<!--code for the drop down menu -->
 
 <nav class="navbar " id="navbarId" >
   <div class="container-fluid">
@@ -34,115 +35,122 @@
   </div>
 </nav>
   
-  <!-- Modal code (the code for the box that's there when you first open the page)-->
+ <!-- Modal code (the code for the box that's there when you first open the page)-->
 
-  <div class="modal auto-modal" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" data-bs-interval="500" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" >
-      <div class="modal-content">
-                
-        <div class="modal-header">
-          
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
+ <div class="modal auto-modal" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" data-bs-interval="500" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" >
+    <div class="modal-content">
+              
+      <div class="modal-header">
         
-        <!--THIS IS WHERE YOU CHANGE THE WORDING OF THE INTRO BOX-->
-
-        <div class="modal-body">
-          <p>
-          <!--ONLY CHANGE THE BIT DIRECTLY BELOW THIS LINE-->  
-            The current waiting time for framing is six to eight weeks.
-            <!--AND BACK TO NO CHANGING STUFF BELOW THIS LINE-->
-          
-          </p>
-          <br>
-          <p>Click menu button to <a href="./home.html" id="enter-link">enter main site</a>.</p>
-        </div>
-                
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      
+      <!--THIS IS WHERE YOU CHANGE THE WORDING OF THE INTRO BOX-->
+
+      <div class="modal-body">
+        <p>
+        <!--ONLY CHANGE THE BIT DIRECTLY BELOW THIS LINE-->  
+          The current waiting time for framing is six to eight weeks.
+          <!--AND BACK TO NO CHANGING STUFF BELOW THIS LINE-->
+        
+        </p>
+        <br>
+        <p>Click menu button to <a href="./home.html" id="enter-link">enter main site</a>.</p>
+      </div>
+              
     </div>
   </div>
-
+</div>
 
 <!--Carousel code, images landing page-->
     
-
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active position-relative" data-bs-interval="4000" >
-          <img src="./images/Carousel images/1.jpg" class="d-block w-100 img-fluid position-absolute top-50 start-50 translate-middle" alt="photograph of grey panelled double doors with homewares and plants in foreground and framing workshop in background">
-        </div>
-       
-        <div class="carousel-item" data-bs-interval="4000">
-          <img src="./images/Carousel images/2.jpg" class="d-block w-100 img-fluid position-absolute top-50 start-50 translate-middle" alt="closeup of corner of wooden frame">
-        </div>
-        <div class="carousel-item" data-bs-interval="4000">
-          <img src="./images/Carousel images/3.jpg" class="d-block w-100 img-fluid position-absolute top-50 start-50 translate-middle" alt="art print on desk with white frame chevron at corner">
-        </div>
-        <div class="carousel-item" data-bs-interval="4000">
-          <img src="./images/Carousel images/4.jpg" class="d-block w-100 img-fluid position-absolute top-50 start-50 translate-middle" alt="photograph of workshop scene with frame chevrons on back wall and grey carpeted bench">
-        </div>
-         
-      </div>
+<div id="container">
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active position-relative" data-bs-interval="4000" >
+      <!--removed from all img: "w-100 position-absolute top-50 start-50 translate-middle"
       
+      NOTE TO SELF INRE THIS: SO REMEMBER, IF IT'S LANDSCAPE MODE YOU WANT WIDTH 100% HEIGHT AUTO AND VICE VERSA, ALTHOUGH
+      ACTUALLY THE WHOLE POINT IS THAT IF THE DEVICE IS IN PORTRAIT MODE IT DEFAULTS TO LANDSCAPE ANYWAY, SO I'M ALMOST TEMPTED
+      TO THINK THAT A LOT OF THIS INHERITING HEIGHT AND WIDTH FROM PARENT (THE MANY MANY PERMUTATIONS OF THAT NECESSARY) CAN
+      GO OUTSIDE THE MEDIA QUERY. EITHER WAY, THEY ALL NEED TO INHERIT EACH OTHER'S HEIGHT AND YOU NEED MAX-WIDTH FOR THE LANDSCAPE STUFF
+      NO IT'S MORE COMPLICATED THAN THAT, BECAUSE WITH THE HTML ROTATED 90DEG, HEIGHT BECOMES WIDTH AND WIDTH BECOMES HEIGHT, HENCE
+      WHY YOU HAD ALL THAT DIFFICULTY BEFORE
+
+      
+      
+      
+      -->
+      <img src="./images/Carousel images/1.jpg" class="d-block position-absolute top-50 start-50 translate-middle" alt="photograph of grey panelled double doors with homewares and plants in foreground and framing workshop in background">
     </div>
-
-    <!--Buttons to scroll back and forth through carousel-->
-    <div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+   
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="./images/Carousel images/2.jpg" class="d-block position-absolute top-50 start-50 translate-middle" alt="closeup of corner of wooden frame">
     </div>
-
-    <!--Call to action text-->
-
-    <div class="text-box position-absolute top-50 start-50 translate-middle" id="action-call">
-        <h1 class="text-center">Call to action</h1>
-        <!--<p class="text-center">Scroll down to see examples of our work.</p>-->
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="./images/Carousel images/3.jpg" class="d-block position-absolute top-50 start-50 translate-middle" alt="art print on desk with white frame chevron at corner">
     </div>
-    
-
-    <!--Link for the Bootstrap javascript code that drives drop down menu etc-->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    
-    <!--The javascript that makes the Modal box appear when the page first opens-->
-
-    <script type="text/javascript">
-      var myModal = new bootstrap.Modal(document.getElementById("myModal"), {});
-  document.onreadystatechange = function () {
-    myModal.show();
-  };
-
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="./images/Carousel images/4.jpg" class="d-block position-absolute top-50 start-50 translate-middle" alt="photograph of workshop scene with frame chevrons on back wall and grey carpeted bench">
+    </div>
+     
+  </div>
   
-  //var enterWebsiteModal = new bootstrap.Modal(document.getElementById("enter-website-modal"), {});
+</div>
+</div>
+<!--Buttons to scroll back and forth through carousel-->
+<div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-  const carouselContainer = document.getElementById('carouselExampleFade');
 
-  carouselContainer.onclick = function(){    
-    location.href='./home.html';
+
+
+   <!--Link for the Bootstrap javascript code that drives drop down menu etc-->
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+   <!--The javascript that makes the Modal box appear when the page first opens-->
+
+   <script type="text/javascript">
+     var myModal = new bootstrap.Modal(document.getElementById("myModal"), {});
+ document.onreadystatechange = function () {
+   myModal.show();
+ };
+
+ 
+ //var enterWebsiteModal = new bootstrap.Modal(document.getElementById("enter-website-modal"), {});
+
+ const carouselContainer = document.getElementById('carouselExampleFade');
+
+ carouselContainer.onclick = function(){    
+   location.href='./home.html';
 
 }/**/
-  
-  /*toggler only enter website*/
-  /*
-  const toggler = document.getElementById('toggler');
+ 
+ /*toggler only enter website*/
+ /*
+ const toggler = document.getElementById('toggler');
 
-  toggler.onclick = function () {
-    enterWebsiteModal.show();
-  }
-  */
+ toggler.onclick = function () {
+   enterWebsiteModal.show();
+ }
+ */
 /*toggler only enter website ENDS*/
 
 
 
-     </script>
-     <!--<script src="./javascriptModal.js" type="text/javascript" >
+    </script>
 
-     </script>-->
+   
+     
   </body>
 </html>
