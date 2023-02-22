@@ -125,7 +125,7 @@ img {
     border-top: rgba(1,1,1,0);
 }
 
-@media screen  and (max-width: 767px) and (orientation: portrait) {
+@media screen  and (max-device-width: 767px) and (orientation: portrait) {
 
     /*modal positioning and sizing*/
     .modal {
