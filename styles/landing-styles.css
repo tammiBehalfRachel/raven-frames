@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: green;
+    /*background-color: green;*/
     font-family: 'Cormorant Infant', serif;
 }
 #container {
@@ -11,7 +11,7 @@ html, body {
     height: inherit;
     margin: 0;
     padding: 0;
-    background-color: pink;
+    /*background-color: pink;*/
     overflow: hidden;
 }
 
@@ -124,10 +124,18 @@ img {
 #enter-website-modal .modal-footer {
     border-top: rgba(1,1,1,0);
 }
+/*and (orientation: portrait)*/
+@media screen  and (max-width: 866px)  {
 
-@media screen  and (max-device-width: 767px) and (orientation: portrait) {
+    .carouel-item {
+        height: 100vh;
+    }
+    .carousel-item img {
+        height: 100% !important;
+        width: auto !important;
+    }
 
-    /*modal positioning and sizing*/
+    /*modal positioning and sizing*//*
     .modal {
         padding-right: 0% !important;
         }
@@ -144,7 +152,7 @@ img {
     .modal-body {
         font-size: 1rem;
     }
-    /*navbar and logo positioning and sizing*/
+    /*navbar and logo positioning and sizing*//*
     .navbar {
         position: absolute !important;
         width: 100% !important;
@@ -178,12 +186,12 @@ img {
         overflow: hidden !important;
     }
 
-    
+    */
    
 }
 
 /*previously 390*/
-
+/*
 @media screen and (max-device-width: 500px) and (orientation: portrait) {
     .carousel-item img {
         height: auto !important;
@@ -198,7 +206,7 @@ img {
         width: auto !important;
     }
 }
-
+*/
 @media screen  and (min-width: 767px)  {
     /*
     #toggler, #logo-image {

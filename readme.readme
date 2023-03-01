@@ -1,4 +1,21 @@
-favicon working draft produced at 
+Raven Frames
 
-http://faviconer.com/
+A static website for the Bristol-based framing business, Raven Frames, where the owner makes custom frames for artworks and photos. website
+constructed using html, css and javascript. Styled using Bootstrap v5.2.
 
+Several options were presented for the styling of the landing page, to ensure that viewing was optimised on all devices. The following
+options were trialled:
+
+1) Landing page automatically renders in landscape mode when viewed on mobile phone
+
+2) A trio of carousels were rendered on mobile phones when viewing in portrait mode, each stacked on top of the OTHER
+
+3) The height of the photo is always 100% of the screen height. When viewed in portrait mode, the sides of the photos are cropped.
+
+Client chose option 3. With regards to option 1, the client was concerned that users would be irritated by being forced to rotate their
+phone.
+
+Website created by T Husband. Contact via THusbandUK@gmail.com
+Photography by Bread and Butter studio. Contact via https://breadandbutter.studio/
+
+Licence: MIT
