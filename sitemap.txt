@@ -1,1 +1,6 @@
-//this will need doing once the domain is pointing at it 
+https://ravenframes.co.uk
+https://ravenframes.co.uk/home.html
+https://ravenframes.co.uk/about-us.html
+https://ravenframes.co.uk/contact.html
+https://ravenframes.co.uk/credits.html
+https://ravenframes.co.uk/privacy.html
