@@ -98,7 +98,7 @@ img {
 /*waiting time pop up box*/
 
 /*to temporarily remove opening pop up box, decomment below code*/
-/*
+/*Makes the pop up box appear 
 #myModal {
     display: none !important;
 }
