@@ -78,7 +78,7 @@ img {
 
 
 
-/*Modals*/
+/*Pop up box styling*/
 
 .btn {
     background-color: black;
@@ -95,9 +95,14 @@ img {
     color: #707070;
 }
 
-/*waiting time modal*/
+/*waiting time pop up box*/
 
-
+/*to temporarily remove opening pop up box, decomment below code*/
+/*
+#myModal {
+    display: none !important;
+}
+*/
 .modal-header {
     border-bottom: rgba(1,1,1,0);
 }
