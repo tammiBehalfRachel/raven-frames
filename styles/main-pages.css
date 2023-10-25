@@ -153,7 +153,7 @@ p
   }
 
   
-  @media (max-device-width: 168px) {
+  @media (max-device-width: 250px) {
     .navbar .container-fluid {
         flex-direction: column-reverse;
         align-items: end !important;
@@ -171,7 +171,7 @@ p
     }
 }
 
-@media (min-device-width: 168px) and (max-device-width: 768px) {
+@media (min-device-width: 250px) and (max-device-width: 768px) {
 
     .navbar {
         padding: 0% !important;
@@ -187,15 +187,15 @@ p
     }
 
     .navbar-toggler {
-        padding: 3vw !important;
+        padding: 4vw !important;
         margin-right: 3% !important;
         margin-top: 3% !important;
     }
-
+/*
     .navbar-toggler-icon {
         width: 0.75em !important;
         height: 0.75em !important;
-    }
+    }*/
 }
 
 @media (max-device-width: 768px) {
@@ -203,7 +203,7 @@ p
         margin-top: 5% !important;
     }
   }
-  
+
   @media (min-width: 250px)  {
     #privacy {
         width: 80%;
