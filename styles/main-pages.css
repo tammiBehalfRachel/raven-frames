@@ -152,7 +152,7 @@ p
     font-size: 1.3rem;
   }
 
-  @media device and (max-width: 168px) {
+  @media (max-device-width: 168px) {
     .navbar .container-fluid {
         flex-direction: column-reverse;
         align-items: end;
@@ -163,7 +163,7 @@ p
     }
 }
 
-@media device and (min-width: 168px) and (max-width: 400px) {
+@media (min-device-width: 168px) and (max-device-width: 400px) {
     .navbar-brand {
         /*width: 60vw !important;*/
     }
