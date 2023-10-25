@@ -170,7 +170,7 @@ p
     }
 }
 
-@media (min-device-width: 168px) and (max-device-width: 400px) {
+@media (min-device-width: 168px) and (max-device-width: 768px) {
 
     .navbar {
         padding: 0% !important;
@@ -186,7 +186,8 @@ p
 
     .navbar-toggler {
         padding: 3vw !important;
-        margin-right: 0% !important;
+        margin-right: 3% !important;
+        margin-top: 3% !important;
     }
 
     .navbar-toggler-icon {

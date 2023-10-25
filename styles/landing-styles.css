@@ -135,7 +135,7 @@ img {
     }
 }
 
-@media (min-device-width: 168px) and (max-device-width: 400px) {
+@media (min-device-width: 168px) and (max-device-width: 768px) {
     .landing-navbar .navbar-brand {
         width: 60vw !important;
     }
