@@ -124,6 +124,37 @@ img {
 }
 
 
+@media (max-width: 168px) {
+    .landing-navbar .container-fluid {
+        flex-direction: column-reverse;
+        align-items: end;
+    }
+
+    .landing-navbar .navbar-brand {
+        margin-right: 0%;
+    }
+}
+
+@media (min-width: 168px) and (max-width: 400px) {
+    .landing-navbar .navbar-brand {
+        width: 60vw !important;
+    }
+
+    .landing-navbar #logo-image {
+        max-width: 100% !important;
+    }
+
+    .landing-navbar .navbar-toggler {
+        padding: 3vw !important;
+        margin-right: 0% !important;
+    }
+
+    .landing-navbar .navbar-toggler-icon {
+        width: 0.75em !important;
+        height: 0.75em !important;
+    }
+}
+
 /*enter website modal*/
 
 #enter-website-modal .modal-footer {
