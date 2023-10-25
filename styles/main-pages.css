@@ -155,21 +155,33 @@ p
   @media (max-device-width: 168px) {
     .navbar .container-fluid {
         flex-direction: column-reverse;
-        align-items: end;
+        align-items: end !important;
+        margin: 0% !important;
+        padding: 0% !important;
     }
 
     .navbar-brand {
         margin-right: 0%;
     }
+
+    #logo-image {
+        max-width: 80vw !important;
+        height: auto;
+    }
 }
 
 @media (min-device-width: 168px) and (max-device-width: 400px) {
+
+    .navbar {
+        padding: 0% !important;
+        margin: 0% !important;
+    }
     .navbar-brand {
         /*width: 60vw !important;*/
     }
 
     #logo-image {
-        max-height: 15vw !important;
+        max-height: 25vw !important;
     }
 
     .navbar-toggler {
