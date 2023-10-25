@@ -124,7 +124,7 @@ img {
 }
 
 
-@media (max-width: 168px) {
+@media (max-device-width: 168px) {
     .landing-navbar .container-fluid {
         flex-direction: column-reverse;
         align-items: end;
@@ -135,7 +135,7 @@ img {
     }
 }
 
-@media (min-width: 168px) and (max-width: 400px) {
+@media (min-device-width: 168px) and (max-device-width: 400px) {
     .landing-navbar .navbar-brand {
         width: 60vw !important;
     }
