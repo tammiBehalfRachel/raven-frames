@@ -11,8 +11,10 @@ body {
 /*added*/
 
 #toggler {
-    margin-top: 0.5rem !important; 
-    padding: 1rem !important;
+    /*margin-top: 0.5rem !important; 
+    padding: 1rem !important;*/
+    margin-top: 0.5rem; 
+    padding: 1rem;
 }
 
 /*added ends*/
@@ -150,7 +152,38 @@ p
     font-size: 1.3rem;
   }
 
-  @media screen  and (min-width: 250px)  {
+  @media device and (max-width: 168px) {
+    .navbar .container-fluid {
+        flex-direction: column-reverse;
+        align-items: end;
+    }
+
+    .navbar-brand {
+        margin-right: 0%;
+    }
+}
+
+@media device and (min-width: 168px) and (max-width: 400px) {
+    .navbar-brand {
+        /*width: 60vw !important;*/
+    }
+
+    #logo-image {
+        max-height: 15vw !important;
+    }
+
+    .navbar-toggler {
+        padding: 3vw !important;
+        margin-right: 0% !important;
+    }
+
+    .navbar-toggler-icon {
+        width: 0.75em !important;
+        height: 0.75em !important;
+    }
+}
+
+  @media (min-width: 250px)  {
     #privacy {
         width: 80%;
     }
