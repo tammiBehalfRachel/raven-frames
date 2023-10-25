@@ -152,6 +152,7 @@ p
     font-size: 1.3rem;
   }
 
+  
   @media (max-device-width: 168px) {
     .navbar .container-fluid {
         flex-direction: column-reverse;
@@ -175,6 +176,7 @@ p
     .navbar {
         padding: 0% !important;
         margin: 0% !important;
+        /*argin-top: 5% !important;*/
     }
     .navbar-brand {
         /*width: 60vw !important;*/
@@ -196,6 +198,12 @@ p
     }
 }
 
+@media (max-device-width: 768px) {
+    .navbar {
+        margin-top: 5% !important;
+    }
+  }
+  
   @media (min-width: 250px)  {
     #privacy {
         width: 80%;
