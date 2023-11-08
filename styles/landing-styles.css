@@ -30,6 +30,14 @@ html, body {
     max-height: 14vh;     
 }
 
+/*offcanvas logo sizing*/
+
+#monogram-logo-image {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
+
 /*navbar font*/
 
 #navbarId {
