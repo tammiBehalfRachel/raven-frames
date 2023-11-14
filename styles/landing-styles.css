@@ -38,6 +38,16 @@ html, body {
     background-color: white;
 }
 
+/*navbar font size*/
+
+.nav-item {
+    font-size: 1.4rem !important;
+}
+
+.offcanvas {
+    width: 300px !important;
+}
+
 /*navbar font*/
 
 #navbarId {
