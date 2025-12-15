@@ -118,7 +118,7 @@ img {
 /*to temporarily remove opening pop up box, decomment below code*/
 
 #myModal {
-    display: 
+   /*display: none !important*/
 }
 
 .modal-header {
