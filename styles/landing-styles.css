@@ -290,17 +290,4 @@ img {
         }
       */  
 }
-/* TEMPORARY modal centering fix */
-#myModal {
-    display: block !important;
-    position: fixed !important;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    z-index: 1050 !important;
-}
 
-.modal-backdrop {
-    display: block !important;
-    opacity: 0.25 !important;
-}
