@@ -291,3 +291,17 @@ img {
       */  
 }
 
+/* Custom styling for the Raven Frames modal */
+#myModal .modal-content {
+    border-radius: 20px;           /* rounded corners */
+    text-align: center;            /* center text inside modal */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);  /* soft shadow */
+    padding: 1.5rem;               /* optional: more spacing inside modal */
+}
+
+/* Optional: style the modal body text nicely */
+#myModal .modal-body p {
+    margin: 0.5rem 0;             /* space between lines */
+    font-size: 1.2rem;            /* slightly larger for readability */
+    line-height: 1.4;             /* comfortable spacing */
+}
