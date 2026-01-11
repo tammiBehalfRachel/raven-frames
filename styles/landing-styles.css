@@ -293,21 +293,24 @@ img {
 
 /* Custom styling for the Raven Frames modal */
 #myModal .modal-content {
-    border-radius: 20px;                     /* rounded corners */
-    text-align: center;                      /* center text */
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);/* subtle shadow */
-    padding: 2rem 1rem 1rem 1rem;           /* top 2rem, sides 1rem, bottom 1rem */
+    border-radius: 20px;                        /* rounded corners */
+    text-align: center;                         /* center text */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);   /* subtle shadow */
+    padding: 1rem 0.5rem 0.5rem 0.5rem;        /* top 1rem, sides 0.5rem, bottom 0.5rem */
+    background-color: rgba(255, 255, 255, 0.95); /* white with slight transparency */
 }
 
 /* Reduce header space */
 #myModal .modal-header {
-    padding: 0.5rem 1rem 0.5rem 1rem;       /* smaller header, sides same as modal-content */
-    border-bottom: none;                     /* remove border */
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;      /* smaller header padding */
+    border-bottom: none;                        /* remove border */
 }
 
 /* Modal body text styling */
 #myModal .modal-body p {
-    margin: 0.5rem 0;                        /* spacing between lines */
+    margin: 0.3rem 0;                           /* less spacing between lines */
     font-size: 1.2rem;
     line-height: 1.4;
 }
+
+
