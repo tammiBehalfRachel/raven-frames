@@ -132,7 +132,7 @@ img {
 }
 
 .modal-backdrop {
-    opacity: 0.4 !important;
+    opacity: 0.25 !important;
     width: inherit;
     height: inherit;
 }
