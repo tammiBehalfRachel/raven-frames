@@ -297,11 +297,11 @@ img {
     text-align: center;                               /* center text horizontally */
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);         /* subtle shadow */
     padding: 1rem 0.5rem;                             /* top/bottom 1rem, sides 0.5rem */
-    background-color: rgba(255, 255, 255, 0.85);     /* slightly more transparent */
+    background-color: rgba(255, 255, 255, 0.95);     /* slightly less transparent */
     
     display: flex;                                    /* use flex for vertical centering */
     flex-direction: column;                           /* stack header + body vertically */
-    justify-content: center;                           /* center content vertically */
+    justify-content: center;                          /* center content vertically */
 }
 
 /* Reduce header space */
@@ -316,9 +316,7 @@ img {
 }
 
 #myModal .modal-body p {
-    margin: 0.3rem 0;                                 /* spacing between lines */
-    font-size: 1.2rem;
-    line-height: 1.4;
+    margin: 0.5rem 0;                                 /* spacing between lines */
+    font-size: 1.4rem;                                /* slightly bigger text */
+    line-height: 1.5;                                 /* comfortable spacing */
 }
-
-
