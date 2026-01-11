@@ -297,7 +297,7 @@ img {
     text-align: center;                               /* center text horizontally */
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);         /* subtle shadow */
     padding: 1rem 0.5rem;                             /* top/bottom 1rem, sides 0.5rem */
-    background-color: rgba(255, 255, 255, 0.95);     /* slightly less transparent */
+    background-color: rgba(255, 255, 255, 0.90);     /* slightly less transparent */
     
     display: flex;                                    /* use flex for vertical centering */
     flex-direction: column;                           /* stack header + body vertically */
@@ -317,6 +317,6 @@ img {
 
 #myModal .modal-body p {
     margin: 0.5rem 0;                                 /* spacing between lines */
-    font-size: 1.4rem;                                /* slightly bigger text */
+    font-size: 1.3rem;                                /* slightly bigger text */
     line-height: 1.5;                                 /* comfortable spacing */
 }
