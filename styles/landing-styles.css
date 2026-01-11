@@ -317,6 +317,6 @@ img {
 
 #myModal .modal-body p {
     margin: 0.5rem 0;                                 /* spacing between lines */
-    font-size: 1.3rem;                                /* slightly bigger text */
+    font-size: 1.35rem;                                /* slightly bigger text */
     line-height: 1.5;                                 /* comfortable spacing */
 }
